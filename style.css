@@ -9,7 +9,7 @@
 }
 
 .navbar-nav .nav-link:hover {
-    background-color: gray!important;
+    background-color: gray !important;
 }
 
 .search-icon {
@@ -51,30 +51,38 @@
     padding: 252px;
     ;
 }
- 
+
 .container-99 {
     width: 80%;
-    margin: auto;
-    padding: 50px 0;
+    margin: 100px;
+    padding: 0 0px;
     text-align: center;
+    justify-content: center;
 }
 
 h1 {
     font-family: "Segoe UI", Arial, sans-serif;
     font-weight: 400;
     margin: 10px 0;
- }
+}
 
 .w3-justify {
     text-align: justify !important;
-    
+
 }
 
 
 
 p {
     max-width: 800px;
-    margin: auto;
+    margin-right: 296px;
+    line-height: 1.6;
+    text-align: center;
+}
+
+p child {
+    max-width: 800px;
+    margin-right: 296px;
     line-height: 1.6;
     text-align: center;
 }
@@ -134,7 +142,7 @@ p {
 
 .card {
     border-radius: 2px;
-  
+
 }
 
 .card img {
@@ -142,10 +150,11 @@ p {
     height: 100px;
     object-fit: cover;
 }
+
 .tour-card {
     background-color: white;
     color: rgb(5, 5, 5);
-    
+
     border-radius: 5px;
     text-align: left;
     width: 10%;
@@ -234,10 +243,58 @@ p {
 }
 
 .container-71 {
-
     width: 80%;
     margin: auto;
     padding: 50px 0;
     text-align: center;
     align-content: center;
+}
+
+.container-21 {
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+    padding: 50px 0;
+    background-color: white;
+    color: black;
+}
+
+h1 {
+    font-size: 24px;
+    letter-spacing: 2px;
+}
+
+.subtitle {
+
+    font-style: italic;
+    color: black;
+    margin-bottom: 20px;
+}
+
+.description {
+    max-width: 800px;
+    margin: 0 auto 40px;
+    line-height: 1.6;
+}
+
+.band-members {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.member {
+    text-align: center;
+}
+
+.member img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.name {
+    margin-top: 10px;
+    font-style: italic;
 }
